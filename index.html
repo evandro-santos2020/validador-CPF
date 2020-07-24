@@ -24,7 +24,7 @@
 
 <body>
     <div class="jumbotron">
-        <div class="container" style="text-align: center;">
+        <div class="container">
             <h1 class="page-header">Validador de CPF</h1>
             <p>Através deste simples algoritmo, é possível consultar se um CPF é válido para prosseguir com o cadastramento desejado.</p>
         </div>
@@ -33,29 +33,32 @@
     <div class="container formulario">
         
         <form name="contact" netlify>
-          <p>
+            <p>
             <div class="input-group input-group-lg">
                 <span class="input-group-addon" id="sizing-addon1">Nome</span>
                 <input type="text" id="nome_digitado" class="form-control" placeholder="Digite seu nome ..."
                     aria-describedby="sizing-addon1">
             </div>
-          </p>
-          <p>
+            </p>
+
+            <p>
             <div class="input-group input-group-lg">
                 <span class="input-group-addon" id="sizing-addon1">Email</span>
                 <input type="text" id="email_digitado" class="form-control" placeholder="Digite seu email ..."
                     aria-describedby="sizing-addon1">
             </div>
-          </p>
+            </p>
+
             <div class="input-group input-group-lg">
-            <span class="input-group-addon" id="sizing-addon1">CPF</span>
-            <input type="text" id="email_digitado" class="form-control" placeholder="Digite seu CPF para validação ..."
-                aria-describedby="sizing-addon1">
+                <span class="input-group-addon" id="sizing-addon1">CPF</span>
+                <input type="text" id="cpf_digitado" class="form-control" placeholder="Digite o cpf para validação ..."
+                    aria-describedby="sizing-addon1">
             </div>
             <br>
+
             <p>
-           <button type="button" class="btn btn-info" onclick="validacao()">Validar !</button>
-          </p>
+            <button type="button" class="btn btn-info" onclick="validacao()">Validar !</button>
+            </p>
 
         </form>
         <form>
