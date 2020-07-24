@@ -31,6 +31,20 @@
 
     </div>
     <div class="container formulario">
+        
+        <form name="contact" netlify>
+          <p>
+            <label>Name <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Email <input type="email" name="email" /></label>
+          </p>
+            <input type="text" id="cpf_digitado" class="form-control" placeholder="Digite o cpf para validação ..." aria-describedby="sizing-addon1">
+          <p>
+           <button type="button" class="btn btn-info" onclick="validacao()">Validar !</button>
+          </p>
+
+        </form>
         <form>
             <div class="form-group">
                 <div class="input-group input-group-lg">
@@ -40,7 +54,6 @@
                 </div>
                 <small class="form-text text-muted">Digite somente numeros</small>
             </div>
-            <button type="button" class="btn btn-info" onclick="validacao()">Validar !</button>
         </form>
     </div>
     <div class="container page-header">
