@@ -17,7 +17,7 @@
 
 ## 🚀 Projeto
 
-O objetivo do projeto é criar uma estrutura que valide se o CPF é válido.
+O objetivo do projeto é criar uma estrutura que valide se o CPF é válido, para melhor confiabilidade de cadastramento.
 
 ## 🔧 Tecnologias
 
@@ -26,4 +26,4 @@ O objetivo do projeto é criar uma estrutura que valide se o CPF é válido.
 
 ---
 
-Feito com ♥  by [Evandro Santos]
+Feito com  ♥ by [Evandro Santos]
