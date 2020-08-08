@@ -1,9 +1,7 @@
 <p align="center">
 <img alt="logo" src="images/logo.png" width="200px"/>
 </p>
-<h1 align="center">
-  Validador de CPF!
-</h1>
+
 
 <p align="center">Valide se CPF</p>
 
