@@ -18,6 +18,8 @@
 
     <link rel="stylesheet" href="./style.css">
 
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+
     <script src="scrip.js"></script>
 
 </head>
@@ -25,14 +27,17 @@
 <body>
     <div class="jumbotron">
         <div class="container" style="text-align: center;">
-            <h1 class="page-header">Validador de CPF</h1>
+            <div class="container-titulo">
+                <img id="logo"   src="images/logo.png" />
+            </div>
+
             <p>Através deste simples algoritmo, é possível consultar se um CPF é válido para prosseguir com o cadastramento desejado.</p>
         </div>
 
     </div>
     <div class="container formulario">
         
-        <form role="form" method="POST" data-netlify="true" action="/tkspage.html"> 
+        <form role="form" method="POST" data-netlify="true" action=""> 
             <p>
             <div class="input-group input-group-lg">
                 <span class="input-group-addon" id="sizing-addon1">Nome</span>
@@ -53,24 +58,20 @@
                 <span class="input-group-addon" id="sizing-addon1">CPF</span>
                 <input type="text" id="cpf_digitado" class="form-control" placeholder="Digite o cpf para validação ..."
                     aria-describedby="sizing-addon1">
+
             </div>
-            <br>
+             <small class="form-text text-muted">Digite somente numeros</small>
+           
+            
+            <div class="boton">
+                <button type="button" class="btn btn-info" id="btn-info" onclick="validacao()">Validar !</button>
+                <input name="redirectTo" type="hidden" value="" />
+            </div>
 
-            <p>
-            <button type="button" class="btn btn-info" onclick="validacao()">Validar !</button>
-            </p>
 
-            <input name="redirectTo" type="hidden" value="https://seviraempreendedor.com/tkspage.html" />
 
         </form>
 
-
-        <form>
-            <div class="form-group">
-
-                <small class="form-text text-muted">Digite somente numeros</small>
-            </div>
-        </form>
     </div>
     <div class="container page-header">
         <div id="success" class="alert alert-success" style="display: none;" role="alert">
