@@ -11,6 +11,8 @@
   <a href="https://github.com/evandro-santos2020">
     <img alt="Made by Evandro Santos" src="https://img.shields.io/badge/Made%20by-Evandro%20Santos-191A1E">
   </a>
+  
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/10a6bc0f-3a6a-4c2d-9d6c-f58b28d9c723/deploy-status)](https://app.netlify.com/sites/validadorcpf/deploys)
 
 
 </p>
